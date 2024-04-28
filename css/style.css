@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #282828;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    display: inline;
+    padding: 10px 20px;
+    position: relative;
+}
+.logo{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 30px 0 40px;
+    height: 87.3vh;
+   
+}
+.print:hover {
+    background-color: #d0d0d0; /* Change background color on hover */
+    color: #2d2a2a; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.home:hover {
+    background-color: #d0d0d0; /* Change background color on hover */
+    color: #2d2a2a; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.contact:hover {
+    background-color: #d0d0d0; /* Change background color on hover */
+    color: #2d2a2a; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.logo:hover {
+    text-shadow: 0 0 10px #fff; /* Add a glowing effect to the text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.controls
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+   
+   
+  
+    
+    font-family: 'Poppins', sans-serif;
+}
+.control-button{
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width: 40%;
+}
+#eraser{
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width: 40%;
+}
+.footer{
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#imageSection{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+    overflow: auto;
+    padding: 10px;
+    margin: 0;
+    border: #282828 2px solid;
+    border-style: dotted;
+    height: 80vh;
+    
+}
+.pre{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #282828;
+    margin-bottom: 10px;
+}
+#pree{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #535353;
+    margin-top: 300px;
+}
+
+.mainSlide{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    
+   
+    
+
+}
+img {
+    margin: 5px;
+    border: #000 2px solid;
+}
+
+
+#whiteboard {
+    border: 2px solid #000;
+    background-color: #fff;
+ 
+    
+    
+
+}
+
+#saveButton{
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
